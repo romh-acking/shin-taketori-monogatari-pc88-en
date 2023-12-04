@@ -1,0 +1,8 @@
+// Move game over text to the far left to make auto-linebreaking seemless
+ＬＯＣＡＴＥ 0c2::ＬＯＣＡＴＥ 0c0
+
+// Move over name text
+ＬＯＣＡＴＥ 0d22::ＬＯＣＡＴＥ 0c3
+
+// Change disk change numbering ordering
+00520: ＣＯＬＯＲ 0c2:ＰＲＩＮＴ"◆1";:{B3} 0x00A1:ＣＯＬＯＲ 0c6:{B3} 0x0088:ＴＥＲＭ(0x00F1,0c0)::00520: ＣＯＬＯＲ 0c2:{B3} 0x00A1;:ＰＲＩＮＴ"1";:ＣＯＬＯＲ 0c6:{B3}:{B3} 0x0088:ＴＥＲＭ(0x00F1,0c0)

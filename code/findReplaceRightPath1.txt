@@ -1,0 +1,2 @@
+// Fix line overflow issue by adding linebreak for incorrect y/n entry.
+42040: ＩＦ K$<>"Y" ＡＮＤ K$<>"N" ＴＨＥＮ:{B3} 0x0108:ＧＯＴＯ 0d42010 ＥＬＳＥ ＲＥＴＵＲＮ::42040: ＩＦ K$<>"Y" ＡＮＤ K$<>"N" ＴＨＥＮ:{B3}:{B3} 0x0108:ＧＯＴＯ 0d42010 ＥＬＳＥ ＲＥＴＵＲＮ

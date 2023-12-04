@@ -1,0 +1,5 @@
+// Move game over text to the far left to make auto-linebreaking seemless
+ＬＯＣＡＴＥ 0c2::ＬＯＣＡＴＥ 0c0
+
+// Move kaguya signature over to prevent textoverflow
+ＬＯＣＡＴＥ 0d28::ＬＯＣＡＴＥ 0d22

@@ -1,0 +1,851 @@
+{
+  "spiroVersion": 3,
+  "files": {
+    "Disk1": ".\\diskImageStreamlined1\\streamlined.bin",
+    "Disk2": ".\\diskImageStreamlined2\\streamlined.bin"
+  },
+  "scripts": {
+    "scriptPath": ".\\script\\Script.json",
+    "original": true,
+    "comment": true,
+    "new": true,
+    "bytes": false,
+    "menu": true,
+    "proof": true
+  },
+  "misc": {
+    "blankOutTextDataAfterRead": true,
+    "blankOutByte": "0x62",
+    "getFileToWritePointerFromPointersField": false,
+    "includedPointerMetadata": true
+  },
+  "scriptManager": {
+    "writeScript": "./Write.bat",
+    "displayReplace": [
+      {
+        "find": "\\[LINE\\]",
+        "replace": "\r\n"
+      },
+      {
+        "find": "\\(Id\\)",
+        "replace": "\r\n"
+      },
+	  {
+        "find": "\\[STOP\\]",
+        "replace": ""
+      },
+	  {
+        "find": "\\(",
+        "replace": "（"
+      },
+	  {
+        "find": "\\)",
+        "replace": "）"
+      },
+      {
+        "find": "\\[.*?\\]",
+        "replace": "#"
+      },
+      {
+        "find": "\\{.*?\\}",
+        "replace": ""
+      }
+    ]
+  },
+  "pointers": {
+    "read&Write": {
+      "Dialogue (Disk 1) #1": {
+        "file": "Disk1",
+        "pointerFormat": {
+          "addresses": [
+            "0x0000D50A"
+          ],
+          "pcDifference": "+0x3700",
+          "addressConversion": "none",
+          "entryNumber": "256",
+          "pointerType": "custom",
+          "pointerLength": 3,
+          "placementStrategy": "inOrder",
+		  "customPointerFormat": [ "21", "(B0)", "(B1)" ],
+          "subentryKeyPrefix": "dialogue1",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "squishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+	  
+      "Dialogue (Disk 1) #2": {
+        "file": "Disk1",
+        "pointerFormat": {
+          "addresses": [
+            "0x0000D513"
+          ],
+          "pcDifference": "+0x3700",
+          "addressConversion": "none",
+          "entryNumber": "255",
+          "pointerType": "custom",
+          "pointerLength": 3,
+          "placementStrategy": "inOrder",
+		  "customPointerFormat": [ "21", "(B0)", "(B1)" ],
+          "subentryKeyPrefix": "dialogue1",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+      "Keywords (English) (Disk 1)": {
+        "file": "Disk1",
+        "pointerFormat": {
+          "addresses": [
+            "0x00047C05"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "1",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "keyword",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasLengthVar",
+          "delimiters": [],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+			  "isMain": true,
+			  "chrFile": ".\\tables\\JISx201",
+			  "dictionaryFile": ".\\tables\\KeywordDictionary",
+			  "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "pixelsPerLine": 312,
+          "autoLineBreak": "none",
+          "includeRedirects": false,
+          "fixedSize": "0x00007F0"
+        }
+      },
+      "Dialogue (Disk 1) (Unused #1)": {
+        "disabled": true,
+        "file": "Disk1",
+        "pointerFormat": {
+          "addresses": [
+            "0x00043400"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "257",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogueUnused1",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+      "Dialogue (Disk 1) (Unused #2)": {
+        "disabled": true,
+        "file": "Disk1",
+        "pointerFormat": {
+          "addresses": [
+            "0x00012900"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "14",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogueUnused2",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+	  "Diary (Disk 1)": {
+        "disabled": false,
+        "file": "Disk1",
+        "pointerFormat": {
+          "addresses": [
+            "0x0000B000"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "25",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "diary",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 156,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+	  "Dialogue (Disk 2) (Unused #3)": {
+        "disabled": true,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x000A000"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "85",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogueUnused3",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+      "Dialogue (Disk 2) (Unused #4)": {
+        "disabled": true,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x0009800"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "12",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogueUnused4",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+      "Dialogue (Disk 2) (Mirror #5)": {
+        "disabled": true,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x00B005"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "61",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogue5_mirror",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+      "Dialogue (Disk 2) (Unused #6)": {
+        "disabled": true,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x000C000"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "84",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogueUnused6",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+      "Dialogue (Disk 2) (Unused #7)": {
+        "disabled": true,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x00C805"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "34",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogueUnused7",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+	  
+      "Dialogue (Disk 2) (Unused #9)": {
+        "disabled": true,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x000D800"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "78",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogueUnused9",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+
+      "Dialogue (Disk 2) (Unused #10)": {
+        "disabled": true,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x0020500"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "13",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogueUnused10",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      }
+
+    },
+    "read": {
+      "DTE": {
+        "disabled": true,
+        "file": "Disk1",
+        "pointerFormat": {
+          "addresses": [
+            "0x00001210"
+          ],
+          "pcDifference": "-0x0",
+          "addressConversion": "None",
+          "entryNumber": 1,
+          "pointerType": "none",
+          "pointerGrouping": "single",
+          "pointerLength": 0,
+          "subentryKeyPrefix": "dte"
+        },
+        "renderFormat": {
+          "dialogueReadType": "HasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "Dictionary",
+          "dictionaryInteractions": [
+            "CHR"
+          ],
+          "isDictionary": true,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "pixelsPerLine": 312,
+          "autoLineBreak": "None",
+          "storeOutOfOrderToSaveSpace": false,
+          "reverseTableEndianness": true
+        }
+      },
+	  "Dialogue (Disk 2)": {
+        "disabled": false,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x00D005"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "33",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogue2",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      }
+    },
+    "write": {
+      "DTE": {
+        "disabled": false,
+        "file": "Disk1",
+        "pointerFormat": {
+          "addresses": [
+            "0x00001210"
+          ],
+          "pcDifference": "-0x0",
+          "addressConversion": "None",
+          "entryNumber": 128,
+          "pointerType": "none",
+          "pointerGrouping": "single",
+          "pointerLength": 0,
+          "subentryKeyPrefix": "dte"
+        },
+        "renderFormat": {
+          "dialogueReadType": "HasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "Dictionary",
+          "dictionaryInteractions": [
+            "CHR"
+          ],
+          "isDictionary": true,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "pixelsPerLine": 312,
+          "autoLineBreak": "None",
+          "storeOutOfOrderToSaveSpace": false,
+          "reverseTableEndianness": true
+        }
+      },
+	  
+	  
+	  "Dialogue (Disk 2)": {
+        "disabled": false,
+        "file": "Disk2",
+        "pointerFormat": {
+          "addresses": [
+            "0x00D005"
+          ],
+          "pcDifference": "0x0",
+          "addressConversion": "none",
+          "entryNumber": "34",
+          "pointerType": "none",
+          "pointerLength": 0,
+          "placementStrategy": "inOrder",
+          "subentryKeyPrefix": "dialogue2",
+          "pointerGrouping": "single"
+        },
+        "renderFormat": {
+          "dialogueReadType": "hasDelimiter",
+          "delimiters": [
+            "[STOP]"
+          ],
+          "renderType": "dictionary",
+          "dictionaryInteractions": [
+            "CHR",
+            "Dictionary"
+          ],
+          "isDictionary": false,
+          "tables": {
+            "main": {
+                "isMain": true,
+                "chrFile": ".\\tables\\CHR",
+                "dictionaryFile": ".\\tables\\Dictionary",
+                "mirrorBlankDictionaryEntries": false,
+            }
+          },
+          "findAndReplaceFile": ".\\tables\\SquishyText",
+          "findAndReplaceStrategy": "SquishyTextRegex",
+          "pixelsPerLine": 312,
+          "autoLineBreak": "tokimekiMihoMessage",
+          "includeRedirects": false
+        }
+      },
+    }
+  },
+  "write": {
+    "writeableRange": {
+      "Dialogue (Disk 1) Range": {
+        "file": "Disk1",
+        "startAddress": "0x00005C01",
+        "size": "0x2FAE"
+      },
+      "Dialogue (Disk 2) Range": {
+        "file": "Disk2",
+        "startAddress": "0x0000D005",
+        "size": "0x00000400"
+      },
+      "Keywords (English) (Disk 1) Range": {
+        "file": "Disk1",
+        "startAddress": "0x00047C05",
+        "size": "0x00007F0"
+      },
+      "DTE Range (Added)": {
+        "file": "Disk1",
+        "startAddress": "0x003a800",
+        "size": "0x100"
+      },
+      "Diary (Disk 1) Range": {
+        "file": "Disk1",
+        "startAddress": "0x0000B000",
+        "size": "0x230"
+      }
+    },
+    "writeRegion": [
+      {
+        "entryOwners": [
+          "Dialogue (Disk 1) #1",
+		  "Dialogue (Disk 1) #2"
+        ],
+        "writeableAddressRanges": [
+          "Dialogue (Disk 1) Range"
+        ]
+      },
+      {
+        "entryOwners": [
+          "Dialogue (Disk 2)"
+        ],
+        "writeableAddressRanges": [
+          "Dialogue (Disk 2) Range"
+        ]
+      },
+      {
+        "entryOwners": [
+          "Keywords (English) (Disk 1)"
+        ],
+        "writeableAddressRanges": [
+          "Keywords (English) (Disk 1) Range"
+        ]
+      },
+      {
+        "entryOwners": [
+          "DTE"
+        ],
+        "writeableAddressRanges": [
+          "DTE Range (Added)"
+        ]
+      },
+      {
+        "entryOwners": [
+          "Diary (Disk 1)"
+        ],
+        "writeableAddressRanges": [
+          "Diary (Disk 1) Range"
+        ]
+      }
+    ]
+  }
+}

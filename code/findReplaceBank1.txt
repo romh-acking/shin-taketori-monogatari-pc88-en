@@ -1,0 +1,11 @@
+// Remove printing the "press this key text" as it messes with English casing.
+01060: {B3} 0x0110;:ＰＲＩＮＴ "RET";:{B3} 0x01E8:D＝ＵＳＲ0c3(0c0)::01060: {B3} 0x0110;:D＝ＵＳＲ0c3(0c0)
+
+// Translate to English and moving cursor over with "X" 
+X＝0c7:L＝0d10:ＰＲＩＮＴ"ト゛チラ ? "::X＝19:L＝0d10:ＰＲＩＮＴ"Who do you choose? "
+
+// Change Engrish
+01206: Z1$＝"SHE":Z2$＝"YOU"::01206: Z1$＝"HER":Z2$＝"YOU"
+
+// Move "push up" cursor text.
+01030: X＝0d24:L＝0c1::01030: X＝8:L＝0c1

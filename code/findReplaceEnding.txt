@@ -1,0 +1,2 @@
+// Move Kaguya signature over
+ＬＯＣＡＴＥ 0d25::ＬＯＣＡＴＥ 0d23

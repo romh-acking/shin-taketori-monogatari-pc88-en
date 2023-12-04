@@ -1,0 +1,59 @@
+// Translate item text
+ムチ::WHIP
+マッチ::MATCH
+ロウソク::CANDLE
+ハコ::BOX
+ナイフ::KNIFE
+ニッキ::DIARY
+ツルハシ::PICKAXE
+オノ::AX
+フート゛::FOOD
+ヒ゛ニホ゛ン::PORN
+ハ゜ンテイ::PANTIES
+ハ゜ンティ::PANTIES
+リンコ゛::APPLE
+ツホ゛::POT
+ツクエ::DESK
+カカ゛ミ::MIRROR
+サンク゛ラス::SUNGLASSES
+サケ::SAKE
+カキ゛::KEY
+カネ::CASH
+
+// Remove Japanese specific characters
+「::
+◆::
+
+// Remove extra input options for space
+ＩＦ K$＝"ン" ＯＲ K$＝"y" ＴＨＥＮ K$＝"Y" ＥＬＳＥ ＩＦ K$＝"ミ" ＯＲ K$＝"n" ＴＨＥＮ K$＝"N"::
+
+// Adjust disk changing prompt so number is at end
+// {B3} => {B3}:{B3} to print next line on a new line.
+45000: ＣＯＬＯＲ 0c2:ＰＲＩＮＴ"2";:ＧＯＴＯ 0d45008::45000: ＧＯＴＯ 0d45005
+45005: ＣＯＬＯＲ 0c2:ＰＲＩＮＴ"1";::45005: ＣＯＬＯＲ 0c2:{B3} 0x00A1;:ＣＯＬＯＲ 0c2:ＰＲＩＮＴ"2";:ＧＯＴＯ 0d45009
+
+45000: ＰＲＩＮＴ"2";:ＧＯＴＯ 0d45008::45000: ＧＯＴＯ 0d45005
+45005: ＰＲＩＮＴ"1";::45005: {B3} 0x00A1;:ＣＯＬＯＲ 0c2:ＰＲＩＮＴ"2";:ＧＯＴＯ 0d45009
+
+45008: {B3} 0x00A1::45008: {B3} 0x00A1;:ＣＯＬＯＲ 0c2:ＰＲＩＮＴ"1";
+45009: ＣＯＬＯＲ 0c6:{B3} 0x0088:ＣＯＬＯＲ 0c7::45009: ＣＯＬＯＲ 0c6:{B3}:{B3} 0x0088:ＣＯＬＯＲ 0c7
+45009: ＧＯＳＵＢ 0d62000:{B3} 0x0088::45009: ＧＯＳＵＢ 0d62000:{B3}:{B3} 0x0088
+
+ＣＯＬＯＲ 0c2:ＰＲＩＮＴ"1";:{B3} 0x00A1:ＣＯＬＯＲ 0c6:{B3} 0x0088::ＣＯＬＯＲ 0c2:{B3} 0x00A1;:ＣＯＬＯＲ 0c2:ＰＲＩＮＴ"1";:ＣＯＬＯＲ 0c6:{B3}:{B3} 0x0088
+
+// 1
+ＧＯＳＵＢ 0d45005::ＧＯＳＵＢ 0d45008
+
+// 2
+ＧＯＳＵＢ 0d45000::ＧＯＳＵＢ 0d45005
+
+// "DO KISS" => "KISS"
+// CM$ == user input variable
+// ids correspond to one listed in text data
+
+
+// Save message formatting
+{B3} 0x00B5:L＝0c6:X＝0d18:Y＝0d17::{B3} 0x00B5:L＝0c6:X＝0d23:Y＝0d17
+
+// Save message input change 
+ＩＦ K$＝"Y" ＴＨＥＮ ＲＥＴＵＲＮ 0d40000::ＩＦ K$＝"N" ＴＨＥＮ ＲＥＴＵＲＮ 0d40000

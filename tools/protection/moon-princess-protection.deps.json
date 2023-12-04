@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "moon-princess-protection/1.0.0": {
+        "runtime": {
+          "moon-princess-protection.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "moon-princess-protection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

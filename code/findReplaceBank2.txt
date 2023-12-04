@@ -1,0 +1,7 @@
+// Blood type order
+// Original: A + desu
+// New: "It's + A + endquote
+03155: ＩＦ DC＝0x00AB ＴＨＥＮ ＩＦ ＥＯＦ(LADY)＝0c0 ＴＨＥＮ ＰＲＩＮＴ"◆「A";:ＥＬＳＥ ＰＲＩＮＴ"◆「AB";::03155: ＩＦ DC＝0x00AB ＴＨＥＮ ＩＦ ＥＯＦ(LADY)＝0c0 ＴＨＥＮ {b3} 0x0018;:ＰＲＩＮＴ"◆「A";:ＥＬＳＥ ＰＲＩＮＴ"◆「AB";
+
+// Change entry to new endquote entry
+&H18::&H21
