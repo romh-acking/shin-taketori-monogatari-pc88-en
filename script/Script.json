@@ -1469,7 +1469,7 @@
                 "dialogue1_000014": {
                   "text": {
                     "Original": "◆おや！　マッチがひっかかっています。[STOP]",
-                    "New": "Oh hey! There's a match stuck inside.[STOP]",
+                    "New": "Oh hey! There's a matchbox stuck inside.[STOP]",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -2285,7 +2285,7 @@
                 "dialogue1_000082": {
                   "text": {
                     "Original": "◆だいじょうぶ、　まほうの　山小やでは　ありません。[STOP]",
-                    "New": "It's all right though, it's not a magical cabin.[STOP]",
+                    "New": "It's all right. It's not a magical cabin.[STOP]",
                     "Comment": "",
                     "Menu": "Look at or touch house"
                   }
@@ -2609,7 +2609,7 @@
                 "dialogue1_000109": {
                   "text": {
                     "Original": "◆また、また　ミエをはる！　本当は好きなんでしょう？[STOP]",
-                    "New": "You're still showing off! Do you really like it?[STOP]",
+                    "New": "Again, again! You're really a fan of these, huh?[STOP]",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -2621,7 +2621,7 @@
                 "dialogue1_000110": {
                   "text": {
                     "Original": "　じゃ、　ボッ収しますよ。[STOP]",
-                    "New": "Well, you'll take it.[STOP]",
+                    "New": "Well, it's time to get rid of them now...[STOP]",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -2669,7 +2669,7 @@
                 "dialogue1_000114": {
                   "text": {
                     "Original": "◆オリンゴ、　コロリン、　スットン、　トン。[STOP]",
-                    "New": "Oringo, Kororin, Sutton, Ton[STOP]",
+                    "New": "Oringo, Kororin, Sutton, Ton.[STOP]",
                     "Comment": "",
                     "Menu": "THROW/DUMP APPLE"
                   }
@@ -2753,7 +2753,7 @@
                 "dialogue1_000121": {
                   "text": {
                     "Original": "◆トックリ、　コロリン、　スットン、　トン。[STOP]",
-                    "New": "Tokkuri, Kororin, Sutton, Ton[STOP]",
+                    "New": "Tokkuri, Kororin, Sutton, Ton.[STOP]",
                     "Comment": "",
                     "Menu": "THROW/DUMP SAKE"
                   }
@@ -3101,7 +3101,7 @@
                 "dialogue1_000150": {
                   "text": {
                     "Original": "　マッチは　ぬれて　つかえなくなりました。[STOP]",
-                    "New": "The match is wet and can't be used.[STOP]",
+                    "New": "Your matches got wet and can't be used.[STOP]",
                     "Comment": "",
                     "Menu": "Exit pond or fall into the river in disk 2"
                   }
@@ -3113,7 +3113,7 @@
                 "dialogue1_000151": {
                   "text": {
                     "Original": "　ロウソクは　ぬれて　つかえなくなりました。[STOP]",
-                    "New": "The candle is wet and can't be used.[STOP]",
+                    "New": "The candle got wet and can't be used.[STOP]",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -3173,7 +3173,7 @@
                 "dialogue1_000156": {
                   "text": {
                     "Original": "◆アーッ！　ヘビの　どくがまわって来たぞ。[STOP]",
-                    "New": "Ah! Here comes the snake's venom.[STOP]",
+                    "New": "Ack! The snake's venom finally takes its toll.[STOP]",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -3665,9 +3665,9 @@
                 "dialogue1_000197": {
                   "text": {
                     "Original": "両　あります。[STOP]",
-                    "New": "There's ryo.[STOP]",
+                    "New": "\\LineBreakSkip/ ryo.[STOP]",
                     "Comment": "",
-                    "Menu": ""
+                    "Menu": "LOOK COIN"
                   }
                 }
               }
@@ -3689,7 +3689,7 @@
                 "dialogue1_000199": {
                   "text": {
                     "Original": "◆アラーッ！　もったいない。　コロリン　コロリン　ころがって[STOP]",
-                    "New": "Hey! It's too good. As it keeps rolling[STOP]",
+                    "New": "What a waste! It drops to the ground.[STOP]",
                     "Comment": "",
                     "Menu": "THROW KEY"
                   }
@@ -3701,7 +3701,7 @@
                 "dialogue1_000200": {
                   "text": {
                     "Original": "　行え不めいに　なってしまいました。[STOP]",
-                    "New": "you're not sure what to do.[STOP]",
+                    "New": "You're not sure what to do now.[STOP]",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -4073,9 +4073,9 @@
                 "dialogue1_000231": {
                   "text": {
                     "Original": "◆ぜんぶで　[STOP]",
-                    "New": "In all[STOP]",
+                    "New": "You have [STOP]",
                     "Comment": "",
-                    "Menu": ""
+                    "Menu": "LOOK COIN"
                   }
                 }
               }
@@ -5857,7 +5857,7 @@
                 "dialogue1_000379": {
                   "text": {
                     "Original": "◆うけ取って　くれません。[STOP]",
-                    "New": "You won't accept this.[STOP]",
+                    "New": "She won't accept it.[STOP]",
                     "Comment": "",
                     "Menu": "Attempt to give an item to the old woman"
                   }
@@ -6205,7 +6205,7 @@
                 "dialogue1_000408": {
                   "text": {
                     "Original": "◆ついに　みつけた！　これが　伝せつの　光る竹か　・・・。[STOP]",
-                    "New": "You finally found it! Is this is legendary shining bamboo?[STOP]",
+                    "New": "You finally found it! Is this the legendary shining bamboo?[STOP]",
                     "Comment": "",
                     "Menu": "Bamboo screen, wearing sunglasses"
                   }
@@ -6265,7 +6265,7 @@
                 "dialogue1_000413": {
                   "text": {
                     "Original": "◆不吉な　かの女のコエをあとに　もとに　もどりましょう。[STOP]",
-                    "New": "Let's return to where you left that ominous woman.[STOP]",
+                    "New": "Let's leave this ominous woman behind and head back.[STOP]",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -6589,7 +6589,7 @@
                 "dialogue1_000440": {
                   "text": {
                     "Original": "◆行き止まりです。　でも、　この穴からは　すぐ出られそうです。[STOP]",
-                    "New": "You can't go anywhere unless get out of the hole first.[STOP]",
+                    "New": "You can't go anywhere unless you get out of the hole first.[STOP]",
                     "Comment": "",
                     "Menu": "Attempt to go to a direction in the hole"
                   }
@@ -7357,7 +7357,7 @@
                 "dialogue1_000504": {
                   "text": {
                     "Original": "◆「ウフフ、　なんだか　ワルヨイして来たワ　・・・。」[STOP]",
-                    "New": "“Hehe, I'm sorta drunk.”[STOP]",
+                    "New": "“Hehe, you can't hold your liquor, huh?”[STOP]",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -7449,7 +7449,7 @@
                 "keyword_000000": {
                   "text": {
                     "Original": "N(Id){01}{00}NORTH(Id){01}{00}FORWARD(Id){01}{00}S(Id){02}{00}SOUTH(Id){02}{00}BACK(Id){02}{00}E(Id){03}{00}EAST(Id){03}{00}RIGHT(Id){03}{00}W(Id){04}{00}WEST(Id){04}{00}LEFT(Id){04}{00}U(Id){05}{00}UP(Id){05}{00}D(Id){06}{00}DOWN(Id){06}{00}WHIP(Id){07}{00}MATCH(Id){08}{00}CANDLE(Id){09}{00}JACK-IN-(Id){0A}{00}KNIFE(Id){0B}{00}DIARY(Id){0C}{00}PICKEL(Id){0D}{00}AX(Id){0E}{00}AXE(Id){0E}{00}BOX(Id){0F}{00}CASE(Id){0F}{00}FOOD(Id){10}{00}DOGFOOD(Id){10}{00}THING(Id){10}{00}VINYL(Id){11}{00}PANTY(Id){12}{00}DRAWERS(Id){12}{00}SHORTS(Id){12}{00}APPLE(Id){13}{00}POT(Id){14}{00}TABLE(Id){15}{00}DESK(Id){15}{00}DRESSER(Id){16}{00}MIRROR(Id){16}{00}STAND(Id){16}{00}SUNGLASS(Id){17}{00}SAKE(Id){18}{00}LIQUER(Id){18}{00}KEY(Id){19}{00}MONEY(Id){1A}{00}COIN(Id){1A}{00}EYES(Id){1B}{00}HAND(Id){1C}{00}HANDS(Id){1C}{00}FINGER(Id){1C}{00}FOOT(Id){1D}{00}FEET(Id){1D}{00}COCK(Id){1E}{00}POLE(Id){1E}{00}FIRE(Id){1F}{00}BOOK(Id){11}{00}ROD(Id){20}{00}FISHINGR(Id){20}{00}STRING(Id){20}{00}SAFE(Id){21}{00}FOREST(Id){22}{00}WOODS(Id){22}{00}TREE(Id){23}{00}POND(Id){24}{00}FIELD(Id){25}{00}CAVE(Id){26}{00}CAVERN(Id){26}{00}ROCKS(Id){27}{00}VILLA(Id){28}{00}COTTAGE(Id){28}{00}HOSPITAL(Id){29}{00}BANK(Id){2A}{00}HOLE(Id){2B}{00}ROAD(Id){2C}{00}STREET(Id){2C}{00}WALL(Id){2D}{00}DOOR(Id){2E}{00}ENTRANCE(Id){2E}{00}EXIT(Id){2E}{00}COVER(Id){2F}{00}CEILING(Id){30}{00}BOARD(Id){31}{00}BILLBOAR(Id){31}{00}ROCK(Id){32}{00}OLDMAN(Id){33}{00}OLD(Id){33}{00}NURSE(Id){34}{00}RECEPTIO(Id){34}{00}WIDOW(Id){35}{00}MONKEY(Id){36}{00}SNAKE(Id){37}{00}DOG(Id){38}{00}CAT(Id){39}{00}KISS(Id){3A}{00}LID(Id){2F}{00}MIMIC(Id){3B}{00}IMITATE(Id){3B}{00}BAMBOO(Id){3C}{00}SHOP(Id){3D}{00}VENDOR(Id){3E}{00}SLOTMACH(Id){3E}{00}TUNNEL(Id){3F}{00}OUTSIDE(Id){40}{00}OLDWOMAN(Id){41}{00}DEMO(Id){42}{00}HOMO(Id){43}{00}RIVER(Id){44}{00}1RYO(Id){45}{00}1RYOU(Id){45}{00}CONSTRUC(Id){46}{00}SIGNPOST(Id){47}{00}NOTICE(Id){47}{00}I(Id){4B}{00}INVENTOR(Id){4B}{00}HELP(Id){4C}{00}SAVE(Id){4D}{00}LOAD(Id){4E}{00}SOUND(Id){4F}{00}WALK(Id){50}{00}GO(Id){50}{00}CLOSET(Id){21}{00}HOUSE(Id){28}{00}RUN(Id){51}{00}ESCAPE(Id){52}{00}RETURN(Id){53}{00}TURN(Id){53}{00}CLIMB(Id){54}{00}MATCHES(Id){08}{00}LAND(Id){55}{00}GODOWN(Id){55}{00}JUMP(Id){56}{00}FALL(Id){56}{00}ENTER(Id){57}{00}LEAVE(Id){58}{00}SHAKEHAN(Id){59}{00}SHOUT(Id){5A}{00}SWIM(Id){5B}{00}DIVE(Id){5C}{00}ASSIST(Id){5D}{00}OUT(Id){40}{00}CALL(Id){5E}{00}SAY(Id){5F}{00}ASK(Id){5F}{00}TOUCH(Id){60}{00}FEEL(Id){60}{00}TAKE(Id){61}{00}GET(Id){61}{00}HAVE(Id){61}{00}BRING(Id){61}{00}PUT(Id){76}{00}THROW(Id){62}{00}DUMP(Id){62}{00}OPEN(Id){63}{00}ヒラク(Id){FF}{00}CLOSE(Id){64}{00}SHUT(Id){64}{00}SET(Id){65}{00}BURN(Id){65}{00}ヤク(Id){FF}{00}BLOW(Id){66}{00}EAT(Id){67}{00}タヘ゛ル(Id){FF}{00}DRINK(Id){68}{00}BEAT(Id){69}{00}HIT(Id){69}{00}KICK(Id){69}{00}CATCH(Id){6A}{00}CAPTURE(Id){6A}{00}HOLD(Id){6A}{00}SWING(Id){6B}{00}SHAKE(Id){6B}{00}CRACK(Id){6C}{00}BREAK(Id){6D}{00}CUT(Id){6E}{00}CRUSH(Id){6F}{00}DROP(Id){70}{00}GIVE(Id){71}{00}PRESENT(Id){71}{00}アケ゛ル(Id){FF}{00}DO(Id){73}{00}LEND(Id){74}{00}SHOW(Id){74}{00}PAY(Id){75}{00}シハラウ(Id){FF}{00}INSERT(Id){76}{00}READ(Id){77}{00}STAB(Id){78}{00}PUTBACK(Id){79}{00}REPAY(Id){79}{00}USE(Id){7A}{00}RECEIVE(Id){7B}{00}LIGHT(Id){7C}{00}EXAMINE(Id){7D}{00}LOOK(Id){7D}{00}SEARCH(Id){7E}{00}WEAR(Id){7F}{00}STRIKE(Id){80}{00}BEAUTIFU(Id){A0}{00}WONDERFU(Id){A0}{00}CUTE(Id){A0}{00}NEAT(Id){A0}{00}TERRIFIC(Id){A0}{00}EXCELLEN(Id){A0}{00}SEXY(Id){A0}{00}PRETTY(Id){A0}{00}STUPID(Id){A1}{00}INFOMANI(Id){A1}{00}FUCK(Id){A1}{00}UGLY(Id){A1}{00}JUNK(Id){A1}{00}HOMO(Id){A1}{00}AWFUL(Id){A1}{00}HUSBAND(Id){A2}{00}MASTER(Id){A2}{00}SWEETHEA(Id){A2}{00}MARRIAGE(Id){A2}{00}HOBBY(Id){A3}{00}FORTE(Id){A3}{00}BOOK(Id){A4}{00}READING(Id){A4}{00}SPECIALI(Id){A5}{00}AGE(Id){A5}{00}イクツ(Id){FF}{00}BIRTH(Id){A9}{00}SEX(Id){A7}{00}MOTHER(Id){A8}{00}FATHER(Id){A8}{00}PARENTS(Id){A8}{00}FAMILY(Id){A8}{00}SISTER(Id){A8}{00}BIRTHPLA(Id){A9}{00}BORN(Id){A9}{00}FAVORITE(Id){AA}{00}BLOOD(Id){AB}{00}BLOODTYP(Id){AB}{00}NAME(Id){AC}{00}NICKNAME(Id){AC}{00}HOROSCOP(Id){AD}{00}SIGN(Id){AD}{00}BIRTHDAY(Id){AD}{00}HEIGHT(Id){AE}{00}TALL(Id){AE}{00}WEIGHT(Id){AF}{00}オモサ(Id){FF}{00}WAIST(Id){B0}{00}HIP(Id){B0}{00}SIZE(Id){B0}{00}BUST(Id){B0}{00}JOB(Id){B1}{00}OCCUPATI(Id){B1}{00}CAT(Id){B2}{00}CAREER(Id){B3}{00}UNIVERSI(Id){B3}{00}SCHOOL(Id){B3}{00}GRADUATE(Id){B3}{00}(Id){FF}{00}(Id){60}{00}{1A}(Id){00}{00}",
-                    "New": "N(Id){01}{00}NORTH(Id){01}{00}FORWARD(Id){01}{00}S(Id){02}{00}SOUTH(Id){02}{00}BACK(Id){02}{00}E(Id){03}{00}EAST(Id){03}{00}RIGHT(Id){03}{00}W(Id){04}{00}WEST(Id){04}{00}LEFT(Id){04}{00}U(Id){05}{00}UP(Id){05}{00}D(Id){06}{00}DOWN(Id){06}{00}WHIP(Id){07}{00}MATCH(Id){08}{00}CANDLE(Id){09}{00}JACK-IN-THE-BOX(Id){0A}{00}KNIFE(Id){0B}{00}DIARY(Id){0C}{00}PICKAXE(Id){0D}{00}AX(Id){0E}{00}AXE(Id){0E}{00}BOX(Id){0F}{00}CASE(Id){0F}{00}CHEST(Id){0F}{00}FOOD(Id){10}{00}DOG FOOD(Id){10}{00}THING(Id){10}{00}VINYL(Id){11}{00}PANTIES(Id){12}{00}APPLE(Id){13}{00}POT(Id){14}{00}TABLE(Id){15}{00}DESK(Id){15}{00}MIRROR(Id){16}{00}SUNGLASSES(Id){17}{00}SAKE(Id){18}{00}KEY(Id){19}{00}MONEY(Id){1A}{00}COIN(Id){1A}{00}EYES(Id){1B}{00}HAND(Id){1C}{00}HANDS(Id){1C}{00}FINGER(Id){1C}{00}FOOT(Id){1D}{00}FEET(Id){1D}{00}COCK(Id){1E}{00}PENIS(Id){1E}{00}FIRE(Id){1F}{00}BOOK(Id){11}{00}PORN(Id){11}{00}ROD(Id){20}{00}FISHING ROD(Id){20}{00}LINE(Id){20}{00}SAFE(Id){21}{00}FOREST(Id){22}{00}WOODS(Id){22}{00}TREE(Id){23}{00}POND(Id){24}{00}FIELD(Id){25}{00}CAVE(Id){26}{00}CAVERN(Id){26}{00}ROCKS(Id){27}{00}CABIN(Id){28}{00}COTTAGE(Id){28}{00}HOSPITAL(Id){29}{00}BANK(Id){2A}{00}HOLE(Id){2B}{00}ROAD(Id){2C}{00}STREET(Id){2C}{00}WALL(Id){2D}{00}DOOR(Id){2E}{00}ENTRANCE(Id){2E}{00}EXIT(Id){2E}{00}COVER(Id){2F}{00}CEILING(Id){30}{00}BOARD(Id){31}{00}BILLBOARD(Id){31}{00}ROCK(Id){32}{00}OLD MAN(Id){33}{00}MAN(Id){33}{00}NURSE(Id){34}{00}RECEPTIONIST(Id){34}{00}WIDOW(Id){35}{00}MONKEY(Id){36}{00}SNAKE(Id){37}{00}DOG(Id){38}{00}CAT(Id){39}{00}KISS(Id){3A}{00}LID(Id){2F}{00}MIMIC(Id){3B}{00}IMITATE(Id){3B}{00}BAMBOO(Id){3C}{00}SHOP(Id){3D}{00}VENDOR(Id){3E}{00}MACHINE(Id){3E}{00}TUNNEL(Id){3F}{00}OUTSIDE(Id){40}{00}OLD WOMAN(Id){41}{00}WOMAN(Id){41}{00}PROTEST(Id){42}{00}GAY(Id){43}{00}RIVER(Id){44}{00}RYO(Id){45}{00}CONSTRUCTION(Id){46}{00}SIGN(Id){47}{00}I(Id){4B}{00}ITEM(Id){4B}{00}HELP(Id){4C}{00}SAVE(Id){4D}{00}LOAD(Id){4E}{00}SOUND(Id){4F}{00}WALK(Id){50}{00}GO(Id){50}{00}CLOSET(Id){21}{00}HOUSE(Id){28}{00}RUN(Id){51}{00}ESCAPE(Id){52}{00}RETURN(Id){53}{00}TURN(Id){53}{00}CLIMB(Id){54}{00}MATCHES(Id){08}{00}LAND(Id){55}{00}GODOWN(Id){55}{00}JUMP(Id){56}{00}FALL(Id){56}{00}ENTER(Id){57}{00}LEAVE(Id){58}{00}SHAKEHAND(Id){59}{00}SHOUT(Id){5A}{00}SWIM(Id){5B}{00}DIVE(Id){5C}{00}ASSIST(Id){5D}{00}OUT(Id){40}{00}CALL(Id){5E}{00}SAY(Id){5F}{00}ASK(Id){5F}{00}TOUCH(Id){60}{00}FEEL(Id){60}{00}TAKE(Id){61}{00}GET(Id){61}{00}HAVE(Id){61}{00}BRING(Id){61}{00}PUT(Id){76}{00}THROW(Id){62}{00}DUMP(Id){62}{00}OPEN(Id){63}{00}CLOSE(Id){64}{00}SHUT(Id){64}{00}SET(Id){65}{00}BURN(Id){65}{00}BLOW(Id){66}{00}EAT(Id){67}{00}DRINK(Id){68}{00}BEAT(Id){69}{00}HIT(Id){69}{00}KICK(Id){69}{00}CATCH(Id){6A}{00}CAPTURE(Id){6A}{00}HOLD(Id){6A}{00}SWING(Id){6B}{00}CRACK(Id){6B}{00}SHAKE(Id){6B}{00}BREAK(Id){6D}{00}CUT(Id){6E}{00}CRUSH(Id){6F}{00}DROP(Id){70}{00}GIVE(Id){71}{00}PRESENT(Id){71}{00}DO(Id){73}{00}LEND(Id){74}{00}SHOW(Id){74}{00}PAY(Id){75}{00}INSERT(Id){76}{00}READ(Id){77}{00}STAB(Id){78}{00}PUTBACK(Id){79}{00}REPAY(Id){79}{00}USE(Id){7A}{00}RECEIVE(Id){7B}{00}LIGHT(Id){7C}{00}EXAMINE(Id){7D}{00}LOOK(Id){7D}{00}SEARCH(Id){7E}{00}WEAR(Id){7F}{00}STRIKE(Id){80}{00}BEAUTIFUL(Id){A0}{00}WONDERFUL(Id){A0}{00}CUTE(Id){A0}{00}NEAT(Id){A0}{00}TERRIFIC(Id){A0}{00}EXCELLENT(Id){A0}{00}SEXY(Id){A0}{00}PRETTY(Id){A0}{00}STUPID(Id){A1}{00}NERD(Id){A1}{00}UGLY(Id){A1}{00}JUNK(Id){A1}{00}GAY(Id){A1}{00}AWFUL(Id){A1}{00}HUSBAND(Id){A2}{00}MASTER(Id){A2}{00}SWEETHEART(Id){A2}{00}MARRIAGE(Id){A2}{00}HOBBY(Id){A3}{00}FORTE(Id){A3}{00}BOOK(Id){A4}{00}READING(Id){A4}{00}SPECIALTY(Id){A5}{00}AGE(Id){A5}{00}BIRTH(Id){A9}{00}SEX(Id){A7}{00}MOTHER(Id){A8}{00}FATHER(Id){A8}{00}PARENTS(Id){A8}{00}FAMILY(Id){A8}{00}SISTER(Id){A8}{00}BIRTHPLACE(Id){A9}{00}BORN(Id){A9}{00}FAVORITE(Id){AA}{00}BLOOD(Id){AB}{00}BLOODTYPE(Id){AB}{00}NAME(Id){AC}{00}NICKNAME(Id){AC}{00}HOROSCOPE(Id){AD}{00}SIGN(Id){AD}{00}BIRTHDAY(Id){AD}{00}HEIGHT(Id){AE}{00}TALL(Id){AE}{00}WEIGHT(Id){AF}{00}WAIST(Id){B0}{00}HIP(Id){B0}{00}SIZE(Id){B0}{00}BUST(Id){B0}{00}JOB(Id){B1}{00}OCCUPATION(Id){B1}{00}CAT(Id){B2}{00}CAREER(Id){B3}{00}UNIVERSITY(Id){B3}{00}SCHOOL(Id){B3}{00}GRADUATE(Id){B3}{00}(Id){FF}{00}(Id){60}{00}{1A}(Id){00}{00}",
+                    "New": "N(Id){01}{00}NORTH(Id){01}{00}FORWARD(Id){01}{00}S(Id){02}{00}SOUTH(Id){02}{00}BACK(Id){02}{00}E(Id){03}{00}EAST(Id){03}{00}RIGHT(Id){03}{00}W(Id){04}{00}WEST(Id){04}{00}LEFT(Id){04}{00}U(Id){05}{00}UP(Id){05}{00}D(Id){06}{00}DOWN(Id){06}{00}WHIP(Id){07}{00}MATCHBOX(Id){08}{00}MATCH(Id){08}{00}CANDLE(Id){09}{00}JACK-IN-THE-BOX(Id){0A}{00}KNIFE(Id){0B}{00}DIARY(Id){0C}{00}PICKAXE(Id){0D}{00}AX(Id){0E}{00}AXE(Id){0E}{00}BOX(Id){0F}{00}CASE(Id){0F}{00}CHEST(Id){0F}{00}FOOD(Id){10}{00}DOG FOOD(Id){10}{00}THING(Id){10}{00}VINYL(Id){11}{00}PANTIES(Id){12}{00}APPLE(Id){13}{00}POT(Id){14}{00}TABLE(Id){15}{00}DESK(Id){15}{00}MIRROR(Id){16}{00}SUNGLASSES(Id){17}{00}SAKE(Id){18}{00}KEY(Id){19}{00}MONEY(Id){1A}{00}COIN(Id){1A}{00}EYES(Id){1B}{00}HAND(Id){1C}{00}HANDS(Id){1C}{00}FINGER(Id){1C}{00}FOOT(Id){1D}{00}FEET(Id){1D}{00}COCK(Id){1E}{00}PENIS(Id){1E}{00}FIRE(Id){1F}{00}BOOK(Id){11}{00}PORN(Id){11}{00}ROD(Id){20}{00}FISHING ROD(Id){20}{00}LINE(Id){20}{00}SAFE(Id){21}{00}FOREST(Id){22}{00}WOODS(Id){22}{00}TREE(Id){23}{00}POND(Id){24}{00}FIELD(Id){25}{00}CAVE(Id){26}{00}CAVERN(Id){26}{00}ROCKS(Id){27}{00}CABIN(Id){28}{00}COTTAGE(Id){28}{00}HOSPITAL(Id){29}{00}BANK(Id){2A}{00}HOLE(Id){2B}{00}ROAD(Id){2C}{00}STREET(Id){2C}{00}WALL(Id){2D}{00}DOOR(Id){2E}{00}ENTRANCE(Id){2E}{00}EXIT(Id){2E}{00}COVER(Id){2F}{00}CEILING(Id){30}{00}BOARD(Id){31}{00}BILLBOARD(Id){31}{00}ROCK(Id){32}{00}OLD MAN(Id){33}{00}MAN(Id){33}{00}NURSE(Id){34}{00}RECEPTIONIST(Id){34}{00}WIDOW(Id){35}{00}MONKEY(Id){36}{00}SNAKE(Id){37}{00}DOG(Id){38}{00}CAT(Id){39}{00}KISS(Id){3A}{00}LID(Id){2F}{00}MIMIC(Id){3B}{00}IMITATE(Id){3B}{00}BAMBOO(Id){3C}{00}SHOP(Id){3D}{00}VENDOR(Id){3E}{00}MACHINE(Id){3E}{00}TUNNEL(Id){3F}{00}OUTSIDE(Id){40}{00}OLD WOMAN(Id){41}{00}WOMAN(Id){41}{00}PROTEST(Id){42}{00}OKAMA(Id){43}{00}RIVER(Id){44}{00}RYO(Id){45}{00}CONSTRUCTION(Id){46}{00}SIGN(Id){47}{00}I(Id){4B}{00}ITEM(Id){4B}{00}HELP(Id){4C}{00}SAVE(Id){4D}{00}LOAD(Id){4E}{00}SOUND(Id){4F}{00}WALK(Id){50}{00}GO(Id){50}{00}CLOSET(Id){21}{00}HOUSE(Id){28}{00}RUN(Id){51}{00}ESCAPE(Id){52}{00}RETURN(Id){53}{00}TURN(Id){53}{00}CLIMB(Id){54}{00}MATCHES(Id){08}{00}LAND(Id){55}{00}GODOWN(Id){55}{00}JUMP(Id){56}{00}FALL(Id){56}{00}ENTER(Id){57}{00}LEAVE(Id){58}{00}SHAKEHAND(Id){59}{00}SHOUT(Id){5A}{00}SWIM(Id){5B}{00}DIVE(Id){5C}{00}ASSIST(Id){5D}{00}OUT(Id){40}{00}CALL(Id){5E}{00}SAY(Id){5F}{00}ASK(Id){5F}{00}TOUCH(Id){60}{00}FEEL(Id){60}{00}TAKE(Id){61}{00}GET(Id){61}{00}HAVE(Id){61}{00}BRING(Id){61}{00}PUT(Id){76}{00}THROW(Id){62}{00}DUMP(Id){62}{00}OPEN(Id){63}{00}CLOSE(Id){64}{00}SHUT(Id){64}{00}SET(Id){65}{00}BURN(Id){65}{00}BLOW(Id){66}{00}EAT(Id){67}{00}DRINK(Id){68}{00}BEAT(Id){69}{00}HIT(Id){69}{00}KICK(Id){69}{00}CATCH(Id){6A}{00}CAPTURE(Id){6A}{00}HOLD(Id){6A}{00}SWING(Id){6B}{00}CRACK(Id){6B}{00}SHAKE(Id){6B}{00}BREAK(Id){6D}{00}CUT(Id){6E}{00}CRUSH(Id){6F}{00}DROP(Id){70}{00}GIVE(Id){71}{00}PRESENT(Id){71}{00}DO(Id){73}{00}LEND(Id){74}{00}SHOW(Id){74}{00}PAY(Id){75}{00}INSERT(Id){76}{00}READ(Id){77}{00}STAB(Id){78}{00}PUTBACK(Id){79}{00}REPAY(Id){79}{00}USE(Id){7A}{00}RECEIVE(Id){7B}{00}LIGHT(Id){7C}{00}EXAMINE(Id){7D}{00}LOOK(Id){7D}{00}SEARCH(Id){7E}{00}WEAR(Id){7F}{00}STRIKE(Id){80}{00}BEAUTIFUL(Id){A0}{00}WONDERFUL(Id){A0}{00}CUTE(Id){A0}{00}NEAT(Id){A0}{00}TERRIFIC(Id){A0}{00}EXCELLENT(Id){A0}{00}SEXY(Id){A0}{00}PRETTY(Id){A0}{00}STUPID(Id){A1}{00}SLUT(Id){A1}{00}UGLY(Id){A1}{00}JUNK(Id){A1}{00}OKAMA(Id){A1}{00}AWFUL(Id){A1}{00}HUSBAND(Id){A2}{00}MASTER(Id){A2}{00}SWEETHEART(Id){A2}{00}MARRIAGE(Id){A2}{00}HOBBY(Id){A3}{00}FORTE(Id){A3}{00}BOOK(Id){A4}{00}READING(Id){A4}{00}SPECIALTY(Id){A5}{00}AGE(Id){A5}{00}BIRTH(Id){A9}{00}SEX(Id){A7}{00}MOTHER(Id){A8}{00}FATHER(Id){A8}{00}PARENTS(Id){A8}{00}FAMILY(Id){A8}{00}SISTER(Id){A8}{00}BIRTHPLACE(Id){A9}{00}BORN(Id){A9}{00}FAVORITE(Id){AA}{00}BLOOD(Id){AB}{00}BLOODTYPE(Id){AB}{00}NAME(Id){AC}{00}NICKNAME(Id){AC}{00}HOROSCOPE(Id){AD}{00}SIGN(Id){AD}{00}BIRTHDAY(Id){AD}{00}HEIGHT(Id){AE}{00}TALL(Id){AE}{00}WEIGHT(Id){AF}{00}WAIST(Id){B0}{00}HIP(Id){B0}{00}SIZE(Id){B0}{00}BUST(Id){B0}{00}JOB(Id){B1}{00}OCCUPATION(Id){B1}{00}CAT(Id){B2}{00}CAREER(Id){B3}{00}UNIVERSITY(Id){B3}{00}SCHOOL(Id){B3}{00}GRADUATE(Id){B3}{00}(Id){FF}{00}(Id){60}{00}{1A}(Id){00}{00}",
                     "Comment": "",
                     "Menu": ""
                   }
@@ -8194,7 +8194,7 @@
                 "dialogue2_000033": {
                   "text": {
                     "Original": null,
-                    "New": "”[STOP]",
+                    "New": ".”[STOP]",
                     "Comment": "",
                     "Menu": "",
                     "Proof": null

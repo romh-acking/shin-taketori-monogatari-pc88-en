@@ -47,6 +47,8 @@ The tools are coded in C#. You'll have to mess with Wine if you want them to run
 * To generate translated D88 disk images, execute the bat file `Write.bat` by double clicking it.
 
 ## Changelog
+* 2023 December 22nd: 1.1
+    * Text tweaks and bug fixes
 * 2023 December 4th: 1.0
     * Initial release
 
@@ -62,6 +64,7 @@ The tools are coded in C#. You'll have to mess with Wine if you want them to run
     * Translation
 * ppltoast
     * Tester
+    * Game documentation
 
 ### Support
 * Lazermutt4

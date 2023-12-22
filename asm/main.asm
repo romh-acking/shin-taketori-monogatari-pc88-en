@@ -16,6 +16,9 @@
 .close
 
 .open ".\diskImageStreamlined2\streamlined.bin",0
+	.org 0x0000B005
+	.incbin ".\diskImageStreamlined1\streamlined.bin",0x00005C01,0x000004FF
+
 	.org 0x00020500
 	.incbin ".\diskImageStreamlined1\streamlined.bin",0x00005C01,0x00000100
 	

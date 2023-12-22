@@ -1,6 +1,6 @@
 // Translate item text
 ムチ::WHIP
-マッチ::MATCH
+マッチ::MATCHBOX
 ロウソク::CANDLE
 ハコ::BOX
 ナイフ::KNIFE

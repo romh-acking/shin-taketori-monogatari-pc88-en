@@ -256,8 +256,19 @@ CharacterCount		equ 0xCF81
 .org 0x00050F74
 	ld a,0x9
 
+// Adjust "For whom?" cursor placement
+.org 0x00050F6E
+	ld a,0xA
+
 // Text printing adjust for LOOK MATCH
 // 700e 3e12    		LD   A,12H
 // 7010 328ed0  		LD   (0D08EH),A
 .org 0x0000A70E
 	ld a,0x12
+
+.org 0x00051CC4
+	db 0x20
+
+// Adjust look coin text
+.org 0x0000A651
+	ld a,0x9
